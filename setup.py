@@ -1,0 +1,21 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="ae-fzta",
+    version="1.0.0",
+    description="AI-Enhanced Federated Zero Trust Architecture",
+    packages=find_packages(),
+    python_requires=">=3.10",
+    install_requires=[
+        "torch>=2.1.0",
+        "torch_geometric>=2.4.0",
+        "transformers>=4.38.0",
+        "flwr>=1.7.0",
+        "scikit-learn>=1.4.0",
+        "nltk>=3.8.1",
+        "numpy>=1.26.0",
+        "pandas>=2.2.0",
+        "cryptography>=42.0.0",
+        "matplotlib>=3.8.0",
+    ],
+)

@@ -1,0 +1,5 @@
+venv/
+checkpoints/
+ae_fzta.egg-info/
+__pycache__
+QNA_PREPARATION.md
